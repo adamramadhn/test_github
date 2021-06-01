@@ -13,8 +13,10 @@ class MainActivity : AppCompatActivity() {
         val btn = findViewById<Button>(R.id.button)
         btn.setOnClickListener {
             Toast.makeText(this,"HELLO MINNA!",Toast.LENGTH_LONG).show()
-
         }
-
+        val btn2 = findViewById<Button>(R.id.btn)
+        btn2.setOnClickListener {
+            Toast.makeText(this@MainActivity, "BYE!", Toast.LENGTH_LONG).show()
+        }
     }
 }
