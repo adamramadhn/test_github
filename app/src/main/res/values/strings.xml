@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">random</string>
+    <string name="hello">HELLO</string>
 </resources>
